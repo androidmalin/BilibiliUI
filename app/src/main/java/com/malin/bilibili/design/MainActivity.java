@@ -17,6 +17,7 @@
 package com.malin.bilibili.design;
 
 import android.os.Bundle;
+import android.support.design.internal.NavigationMenuView;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
@@ -102,13 +103,25 @@ public class MainActivity extends AppCompatActivity {
             DrawerLayout.LayoutParams params = new DrawerLayout.LayoutParams(drawerWidth, DrawerLayout.LayoutParams.MATCH_PARENT);
             params.gravity = Gravity.START;
             navigationView.setLayoutParams(params);
+            disableNavigationViewScrollbars(navigationView);
             View headerView = navigationView.getHeaderView(0);
             initNavigationViewHeadView(headerView);
             setupDrawerContent(navigationView);
         }
     }
 
-
+    /**
+     * Remove scrollbar from android support design navigation drawer?
+     * @param navigationView
+     */
+    private void disableNavigationViewScrollbars(NavigationView navigationView) {
+        if (navigationView != null) {
+            NavigationMenuView navigationMenuView = (NavigationMenuView) navigationView.getChildAt(0);
+            if (navigationMenuView != null) {
+                navigationMenuView.setVerticalScrollBarEnabled(false);
+            }
+        }
+    }
     private void initNavigationViewHeadView(View headerView){
         if (headerView != null) {
             ImageView headImageView = (ImageView) headerView.findViewById(R.id.user_avatar);

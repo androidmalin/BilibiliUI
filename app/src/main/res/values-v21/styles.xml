@@ -22,29 +22,4 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
-    <style name="Theme.ToolBar.ZhiHu" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
-        <item name="android:windowTranslucentStatus">false</item>
-        <item name="android:windowTranslucentNavigation">true</item>
-        <item name="android:statusBarColor">#0176da</item>
-        <item name="actionOverflowButtonStyle">@style/ActionButton.Overflow.ZhiHu</item>
-    </style>
-
-
-    <!--<style name="Widget.App.Toolbar.Home" parent="@style/Widget.App.Toolbar">-->
-        <!--<item name="elevation">0.0px</item>-->
-    <!--</style>-->
-    <!--<style name="Widget.App.Toolbar" parent="@style/Widget.AppCompat.Toolbar">-->
-        <!--<item name="android:gravity">center_vertical</item>-->
-        <!--<item name="android:background">?colorPrimary</item>-->
-        <!--<item name="android:minHeight">?navigationTopBarSize</item>-->
-        <!--<item name="android:elevation">@dimen/elevation</item>-->
-        <!--<item name="contentInsetStart">0.0dip</item>-->
-        <!--<item name="popupTheme">@style/AppTheme.PopMenu</item>-->
-        <!--<item name="titleTextAppearance">@style/TextAppearance.App.Topbar.Title</item>-->
-        <!--<item name="subtitleTextAppearance">@style/TextAppearance.App.Topbar.Subtitle</item>-->
-        <!--<item name="titleMargins">4.0dip</item>-->
-        <!--<item name="maxButtonHeight">?navigationTopBarSize</item>-->
-        <!--<item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>-->
-    <!--</style>-->
 </resources>

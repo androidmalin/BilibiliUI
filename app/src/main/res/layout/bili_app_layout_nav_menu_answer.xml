@@ -10,4 +10,4 @@
     android:text="@string/nav_menu_answer_tips"
     android:textAppearance="@style/TextAppearance.App.Subtitle"
     android:textColor="@color/white"
-    android:visibility="gone" />
+    android:visibility="visible" />

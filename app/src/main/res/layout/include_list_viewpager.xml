@@ -40,15 +40,6 @@
             android:gravity="center_vertical"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
 
-            <!--<android.support.v7.widget.Toolbar-->
-            <!--android:id="@+id/toolbar"-->
-            <!--style="@style/Widget.App.Toolbar.Home"-->
-            <!--android:layout_width="fill_parent"-->
-            <!--android:layout_height="?navigationTopBarSize"-->
-            <!--android:background="@null"-->
-            <!--app:elevation="0.0dip"-->
-            <!--app:layout_scrollFlags="enterAlways|scroll|snap">-->
-
             <LinearLayout
                 android:id="@+id/ll_toolbar_navigation"
                 android:layout_width="wrap_content"

@@ -17,7 +17,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
-            android:background="@color/theme_color_navigation_profilecover"
             android:clickable="true"
             android:scaleType="centerCrop"
             android:src="@drawable/bili_drawerbg_not_logined" />
