@@ -34,4 +34,5 @@
     <color name="theme_color_view_background">#fffafafa</color>
     <color name="theme_color_navigation_profilecover">#99f0486c</color>
     <color name="yellow">#ffffd11b</color>
+    <color name="gray">#ffbbbbbb</color>
 </resources>

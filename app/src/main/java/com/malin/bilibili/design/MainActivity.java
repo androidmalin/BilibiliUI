@@ -199,12 +199,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         Adapter adapter = new Adapter(getSupportFragmentManager());
-        adapter.addFragment(new CheeseListFragment(), "直播");
-        adapter.addFragment(new CheeseListFragment(), "推荐");
-        adapter.addFragment(new CheeseListFragment(), "番剧");
-        adapter.addFragment(new CheeseListFragment(), "分区");
-        adapter.addFragment(new CheeseListFragment(), "关注");
-        adapter.addFragment(new CheeseListFragment(), "发现");
+        adapter.addFragment(new LiveTabFragment(), "直播");
+        adapter.addFragment(new LiveTabFragment(), "推荐");
+        adapter.addFragment(new LiveTabFragment(), "番剧");
+        adapter.addFragment(new LiveTabFragment(), "分区");
+        adapter.addFragment(new LiveTabFragment(), "关注");
+//        adapter.addFragment(new CheeseListFragment(), "发现");
         viewPager.setAdapter(adapter);
     }
 
